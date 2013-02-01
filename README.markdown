@@ -38,7 +38,8 @@ page](https://github.com/saucelabs/sauce\_ruby/wiki/Cucumber-and-Capybara).
 ## Running on against a list of browsers
 To run against a list of browsers, you need to configure them:
 
-```Sauce.config do |c|
+```ruby 
+Sauce.config do |c|
      c.browsers = [
        ["windows","firefox","18"],
        ["windows","opera","11"]
